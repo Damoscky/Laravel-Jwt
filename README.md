@@ -1,2 +1,2 @@
 # Laravel-Jwt
-Laravel API with JWT to generate token.
+Laravel API with JWT for token authentication.
