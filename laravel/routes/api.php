@@ -27,4 +27,9 @@ Route::group(['prefix' => 'v1'], function($router){
         Route::post('login', 'Auth\LoginController@login');
         Route::post('signup', 'Auth\RegisterController@register');
     });
+
+    Route::group(['prefix' => 'paystack'], function($router){
+        Route::post('verifyBVN', 'v1\Paystack\VerificationController@store');
+        Route::post('verifyBVN/test', 'v1\Paystack\VerificationController@verify');
+    });
 });
