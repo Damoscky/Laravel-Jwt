@@ -16,7 +16,7 @@ class Verification
         $secretKey = 'sk_test_7dfee06335a1641c85370085e0b8c5f3e828ca00';
 
         $headerParams = [
-            'Authorization Bearer '.$secretKey,
+            'Authorization: Bearer '.$secretKey,
         ];
 
         $postData = [
