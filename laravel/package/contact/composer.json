@@ -1,0 +1,19 @@
+{
+    "name": "damoscky/contact",
+    "description": "This will send email to admin and save contact query in DB",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akinwunmi Damilola",
+            "email": "adamilola@sbsc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Damoscky\\Contact\\": "src/"
+        }
+    }
+}
